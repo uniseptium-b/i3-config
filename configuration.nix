@@ -84,7 +84,7 @@ services.gvfs.enable = true;
    environment.systemPackages = with pkgs; [
      wget
      git
-     neovim
+     vim
      kitty
      vlc
      librewolf
@@ -94,6 +94,11 @@ services.gvfs.enable = true;
      picom
      htop
      lxappearance
+     tor-browser
+     tor
+     lilypond
+     denemo
+     gcc
    ];
 
    fonts.packages = with pkgs; [
