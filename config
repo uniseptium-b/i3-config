@@ -25,6 +25,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xinput set-prop 10 299 0.6
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
+exec --no-startup-id flameshot
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -61,7 +62,6 @@ bindsym $mod+Shift+x exec i3lock
 
 bindsym $mod+b exec librewolf
 
-bindsym $mod+Shift+f exec thunar
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run

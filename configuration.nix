@@ -97,8 +97,9 @@ services.gvfs.enable = true;
      tor-browser
      tor
      lilypond
-     denemo
      gcc
+     flameshot
+     geeqie
    ];
 
    fonts.packages = with pkgs; [
